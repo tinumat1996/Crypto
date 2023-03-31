@@ -1,8 +1,11 @@
 import React from 'react'
-
+import mainImage from '../../resources/images/background.png'
+ 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+     <img src={mainImage} alt='img'/>
+    </div>
   )
 }
 
