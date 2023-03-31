@@ -1,0 +1,77 @@
+.nav {
+    /* background-color: #1f023b; */
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .link_main {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  li {
+    margin: 0 10px;
+  }
+  
+  .link_home,
+  .link_market,
+  .link_learn,
+  .link_whyUs,
+  .link_about,
+  .link_careers {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .link_main {
+      margin-bottom: 10px;
+    }
+  
+    ul {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    li {
+      margin: 10px 0;
+    }
+  
+    .link_home,
+    .link_market,
+    .link_learn,
+    .link_whyUs,
+    .link_about,
+    .link_careers {
+      font-size: 16px;
+      margin: 5px 0;
+      display: block;
+    }
+  }
